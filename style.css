@@ -1,0 +1,167 @@
+* {
+	padding: 0;
+	margin: 0;
+	bottom: 0;
+}
+
+*::after,
+*::before {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:focus,
+:active {
+	outline: none;
+}
+
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-webkit-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+
+a {
+	background-color: transparent;
+}
+
+b,
+strong {
+	font-weight: bolder;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+img {
+	vertical-align: top;
+	border-style: none;
+}
+
+ul,
+li {
+	list-style: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+	font-family: inherit;
+	font-size: 100%;
+	line-height: 1.15;
+	margin: 0;
+}
+
+input,
+button,
+textarea {
+	font-weight: inherit;
+}
+
+
+html,
+body {
+	font-family: "Montserrat", sans-serif;
+	background-color: #181818;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+
+h1 {
+	margin-bottom: 30px;
+	font-size: 34px;
+	color: rgb(157, 59, 255);
+}
+
+.inputs {
+	margin-bottom: 20px;
+
+}
+
+.first-value {
+	padding: 10px;
+	border: 2px solid rgb(157, 59, 255);
+	border-radius: 5px;
+	background: inherit;
+	color: #fff;
+}
+
+.second-value {
+	padding: 10px;
+	border: 2px solid rgb(157, 59, 255);
+	border-radius: 5px;
+	background: inherit;
+	color: #fff;
+}
+
+.random-num {
+	margin-bottom: 30px;
+	font-size: 24px;
+	color: #fff;
+}
+
+.random-btn {
+	padding: 15px 30px;
+	font-size: 18px;
+	background: rgb(157, 59, 255);
+	border: 2px solid rgb(157, 59, 255);
+	color: #fff;
+	cursor: pointer;
+	transition: all 0.5s ease-in-out;
+}
+
+h4 {
+	font-size: 14px;
+	color: #fff;
+	margin-right: 10px;
+}
+
+.first {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.second {
+	display: flex;
+	align-items: center;
+}
