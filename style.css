@@ -15,18 +15,6 @@
 	outline: none;
 }
 
-a:focus,
-a:active {
-	outline: none;
-}
-
-nav,
-footer,
-header,
-aside {
-	display: block;
-}
-
 html,
 body {
 	height: 100%;
@@ -40,15 +28,6 @@ body {
 	text-size-adjust: 100%;
 }
 
-a {
-	background-color: transparent;
-}
-
-b,
-strong {
-	font-weight: bolder;
-}
-
 h1,
 h2,
 h3,
@@ -57,20 +36,6 @@ h5,
 h6 {
 	font-size: inherit;
 	font-weight: inherit;
-}
-
-img {
-	vertical-align: top;
-	border-style: none;
-}
-
-ul,
-li {
-	list-style: none;
-}
-
-a:hover {
-	text-decoration: none;
 }
 
 button,
@@ -90,7 +55,6 @@ textarea {
 	font-weight: inherit;
 }
 
-
 html,
 body {
 	font-family: "Montserrat", sans-serif;
@@ -109,17 +73,20 @@ body {
 h1 {
 	margin-bottom: 30px;
 	font-size: 34px;
-	color: rgb(157, 59, 255);
+	color: #fff;
+}
+
+h1 span {
+	color: rgb(1, 255, 234);
 }
 
 .inputs {
-	margin-bottom: 20px;
-
+	margin-bottom: 40px;
 }
 
 .first-value {
 	padding: 10px;
-	border: 2px solid rgb(157, 59, 255);
+	border: 2px solid rgb(1, 255, 234);
 	border-radius: 5px;
 	background: inherit;
 	color: #fff;
@@ -127,41 +94,49 @@ h1 {
 
 .second-value {
 	padding: 10px;
-	border: 2px solid rgb(157, 59, 255);
+	border: 2px solid rgb(1, 255, 234);
 	border-radius: 5px;
 	background: inherit;
 	color: #fff;
 }
 
 .random-num {
-	margin-bottom: 30px;
+	margin-bottom: 40px;
 	font-size: 24px;
 	color: #fff;
+	max-width: 400px;
+	line-height: 28px;
+}
+
+.random-num span {
+	color: rgb(1, 255, 234);
 }
 
 .random-btn {
 	padding: 15px 30px;
 	font-size: 18px;
-	background: rgb(157, 59, 255);
-	border: 2px solid rgb(157, 59, 255);
-	color: #fff;
+	background: rgb(1, 255, 234);
+	border: 2px solid rgb(1, 255, 234);
+	color: #181818;
 	cursor: pointer;
 	transition: all 0.5s ease-in-out;
 }
 
 h4 {
-	font-size: 14px;
+	font-size: 22px;
 	color: #fff;
 	margin-right: 10px;
 }
 
-.first {
+.inputs-block {
 	display: flex;
 	align-items: center;
+}
+
+.inputs-block:not(:last-child) {
 	margin-bottom: 20px;
 }
 
-.second {
-	display: flex;
-	align-items: center;
+.input {
+	max-width: 100px;
 }
