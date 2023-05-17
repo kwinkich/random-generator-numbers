@@ -100,16 +100,25 @@ h1 span {
 	color: #fff;
 }
 
+.p-flex {
+	display: flex;
+}
+
 .random-num {
 	margin-bottom: 40px;
 	font-size: 24px;
 	color: #fff;
 	max-width: 400px;
 	line-height: 28px;
+	margin-right: 10px;
 }
 
-.random-num span {
+.random-span {
+	margin-bottom: 40px;
+	font-size: 24px;
 	color: rgb(1, 255, 234);
+	max-width: 400px;
+	line-height: 28px;
 }
 
 .random-btn {
