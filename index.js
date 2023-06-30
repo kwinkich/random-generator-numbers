@@ -24,7 +24,6 @@ function randomNumber() {
 			paragraph.innerHTML = 'Ваше число:';
 			span.innerHTML = `${number}`;
 		}
-
 	});
 }
 
