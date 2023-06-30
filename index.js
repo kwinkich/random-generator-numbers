@@ -18,9 +18,7 @@ function randomNumber() {
 			span.innerHTML = 'Второе число должно быть больше первого!';
 		} else if (second < 0 || first < 0) {
 			span.innerHTML = 'Числа не могут быть отрицательными!';
-		} else if (first == '') {
-     span.innerHTML = 'В полях должны быть только цифры';
-} else {
+		} else {
 			number = Math.floor(Math.random() * (second - first + 1) + first);
 			console.log(number);
 			paragraph.innerHTML = 'Ваше число:';
